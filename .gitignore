@@ -124,6 +124,9 @@ celerybeat.pid
 .env.local
 .env.*.local
 
+# 运行时产物（TraceLogger 输出）
+memory/
+
 # PyPI配置
 .pypirc
 
